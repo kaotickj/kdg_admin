@@ -1,5 +1,7 @@
 <h2>KDG ADMIN PHP Website Framework</h2>
 <p>PHP website framework. Requires PHP 7.4+ Some functions, such as the RSS Feed and Sitemap generators, require system specific configuration. GNU/GPL3 License. Sample code and content are provided for front end functionality. The current state is a mixture of procedural and object oriented programming that I have (slowly) been converting to OOP. It works well as-is, but will require that you inspect and understand the code to customize it for your needs.</p>
+<h4>Login:</h4>
+<img src="/kdg-cms-admin.png" />
 <h4>Back End:</h4>
 <img src="/kdg-cms-admin.png" />
 <h4>Front End:</h4>
