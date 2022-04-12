@@ -161,11 +161,11 @@ if (!empty ($_GET['page'])) {
             <script>
                 tinymce.init({
                 selector: '#tiny',
-                plugins: 'a11ychecker advcode casechange export formatpainter linkchecker autolink lists checklist media mediaembed pageembed permanentpen powerpaste table advtable tinycomments tinymcespellchecker',
-                toolbar: 'a11ycheck addcomment showcomments casechange checklist code export formatpainter pageembed permanentpen table',
+                plugins: 'autolink lists media table',
+                toolbar: 'addcomment showcomments code table',
                 toolbar_mode: 'floating',
                 tinycomments_mode: 'embedded',
-                tinycomments_author: 'Author name',
+                tinycomments_author: 'Johnny Watts',
                 });
             </script>
             <script src="assets/js/jquery-3.4.0.js"></script><script src="assets/js/bootstrap.min.js"></script>
