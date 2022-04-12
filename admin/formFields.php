@@ -83,7 +83,6 @@ if(isset($article->id))  {
             <select id="author" name="author" class="custom-select" aria-describedby="authorHelpBlock" required="required">
         <option value="">Please Choose</option>
     <?php foreach(Article::AUTHORS as $author) {
-        if($article->author == "kaos") $article->author = "Johnny Watts";
      ?>
       <option value="<?php echo $author; ?>" <?php if($article->author == $author) { echo 'selected'; } ?>><?php echo $author; ?></option>
     <?php } ?>

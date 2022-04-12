@@ -165,9 +165,9 @@ class Article {
     public $moddate;
     public $modauthor;
 
-    public const CATEGORIES = ['general', 'articles', 'legal', 'security', 'services', 'news'];
-
-    public const AUTHORS = ['Johnny Watts', 'John Reyes', 'Tammy Eldridge', 'Anthony Martin'];
+    public const CATEGORIES = ['general', 'articles', 'legal', 'services', 'news'];
+	// Comma separated 
+    public const AUTHORS = ['Super Admin'];
 
     public const ACTIVE = ['1', '0'];
 
@@ -182,7 +182,7 @@ class Article {
         $this->title = $args['title'] ?? '';
         $this->category = $args['category'] ?? 'general';
         $this->created_date = $args['created_date'] ?? NULL;
-        $this->author = $args['author'] ?? 'Johnny Watts';
+        $this->author = $args['author'] ?? 'Super Admin';
         $this->image = '/assets/img/' ?? '';
         $this->image .= $args['image'] ?? '';
         $this->description = $args['description'] ?? '';
