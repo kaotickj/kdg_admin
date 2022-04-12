@@ -1,0 +1,17 @@
+RewriteEngine On
+#RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/$ /$1 [L,R=301]
+RewriteCond %{QUERY_STRING} base64_encode[^(]*\([^)]*\) [OR]
+RewriteCond %{QUERY_STRING} (<|%3C)([^s]*s)+cript.*(>|%3E) [NC,OR]
+RewriteCond %{QUERY_STRING} GLOBALS(=|\[|\%[0-9A-Z]{0,2}) [OR]
+RewriteCond %{QUERY_STRING} _REQUEST(=|\[|\%[0-9A-Z]{0,2})
+
+ErrorDocument 404 /404.php
+
+##Options -SymLinksIfOwnerMatch +FollowSymLinks
+
+RewriteRule ^about index.php?page=about [NC,L]
+RewriteRule ^about index.php?page=about [NC,L]
+RewriteRule ^products index.php?page=products [NC,L]
+RewriteRule ^store index.php?page=store [NC,L]

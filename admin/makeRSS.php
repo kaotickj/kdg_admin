@@ -5,13 +5,11 @@ require_login();
         $header = '<?xml version="1.0" encoding="utf-8"?>
                     <rss version="2.0">
                     <channel>
-                    <title>KDG Web Solutions Digital Marketing Guides</title>
-                    <link>https://kdgwebsolutions.com/</link>
-                    <description>Our Digital Marketing Self Help Articles provide easy to understand and follow guides to Marketing Your Business Online.</description>
-                    <category>Digital Marketing</category>
-                    <category>Small Business</category>
-                    <category>Business Reputation</category>
-                    <category>Online Presence</category>';
+                    <title>Hernandez Brothers Coffee</title>
+                    <link>https://example.com/</link>
+                    <description>Every cup of our quality artisan coffee starts with locally sourced, hand picked ingredients. Once you try it, our coffee will be a blissful addition to your everyday morning routine - we guarantee it!</description>
+                    <category>Website</category>
+                    <category>Small Business</category>';
         $count = 0;
         $footer = "</channel>
                 </rss>";
@@ -34,16 +32,14 @@ require 'config.php';
 
     	while($row = mysqli_fetch_assoc($rs)) {
         $count = $count + 1;
-        $page = 'https://kdgwebsolutions.com/'.$row['page'];
+        $page = 'https://example.com/'.$row['page'];
 //        die($page);
         $title = $row['title'];
-        $img = '<enclosure url="https://kdgwebsolutions.com/'.$row['image'].'" type="image/jpg" />';
+        $img = '<enclosure url="https://example.com/'.$row['image'].'" type="image/jpg" />';
         $pub = $row['created_date'];
         $item = '<item><title>'.$title.'</title>
-                <category>Digital Marketing</category>
-                <category>Small Business</category>
-                <category>Business Reputation</category>
-                <category>Online Presence</category>';
+                    <category>Website</category>
+                    <category>Small Business</category>';
         $url = '<link>'.$page.'</link>';
         $pubDate = '<pubDate>'.$pub.'</pubDate>';
         $gud = '<guid>'.$page.'</guid>';

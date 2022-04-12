@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+                    <rss version="2.0">
+                    <channel>
+                    <title>Hernandez Brothers Coffee</title>
+                    <link>https://example.com/</link>
+                    <description>Every cup of our quality artisan coffee starts with locally sourced, hand picked ingredients. Once you try it, our coffee will be a blissful addition to your everyday morning routine - we guarantee it!</description>
+                    <category>Website</category>
+                    <category>Small Business</category>
+<item><title>Store</title>
+                    <category>Website</category>
+                    <category>Small Business</category>
+<enclosure url="https://example.com//assets/img/products-03.jpg" type="image/jpg" />
+<link>https://example.com/store</link>
+<guid>https://example.com/store</guid>
+<pubDate>Tue, 12 Apr 2022 13:38:43 EDT</pubDate>
+<description>Founded in 1987 by the Hernandez brothers, our establishment has been serving up rich coffee sourced from artisan farmers in various regions of South and Central America.</description></item>
+<item><title>Products</title>
+                    <category>Website</category>
+                    <category>Small Business</category>
+<enclosure url="https://example.com//assets/img/products-01.jpg" type="image/jpg" />
+<link>https://example.com/products</link>
+<guid>https://example.com/products</guid>
+<pubDate>Tue, 12 Apr 2022 13:29:10 EDT</pubDate>
+<description>Travelling the world for the very best quality coffee is something take pride in. When you visit us, you'll always find new blends from around the world, mainly from regions in Central and South America.</description></item>
+<item><title>About Us</title>
+                    <category>Website</category>
+                    <category>Small Business</category>
+<enclosure url="https://example.com//assets/img/about.jpg" type="image/jpg" />
+<link>https://example.com/about</link>
+<guid>https://example.com/about</guid>
+<pubDate>Tue, 12 Apr 2022 13:07:17 EDT</pubDate>
+<description>Founded in 1987 by the Hernandez brothers, our establishment has been serving up rich coffee sourced from artisan farmers in various regions of South and Central America. We are dedicated to travelling the world, finding the best coffee, and bringing back to you here in our cafe.</description></item>
+</channel>
+                </rss>
