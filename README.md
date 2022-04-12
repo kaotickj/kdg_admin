@@ -3,7 +3,7 @@
 <h4>Login:</h4>
 <img src="/kdg-cms-admin.png" />
 <h4>Back End:</h4>
-<img src="/kdg-cms-admin.png" />
+<img src="/kdg_admin-back-end.png" />
 <h4>Front End:</h4>
 <img src="/kdg_admin-front-end.png" />
 
