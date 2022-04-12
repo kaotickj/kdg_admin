@@ -36,7 +36,7 @@ if(isset($article->id))  {
         <div class="col-8">
             <div class="input-group">
 <?php
-        if(!$_GET['id']) {
+        if(empty($_GET['id'])) {
 ?>
                 <input id="image" name="image" type="file" style="vertical-align:middle;height:30px;" class="form-control" aria-describedby="imageHelpBlock" required="required">
           </div>
