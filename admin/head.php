@@ -1,21 +1,21 @@
 <?php
+if(!isset($_GET['page'])) $title = "Home";
 if (!empty ($_GET['page'])) {
 	$page = $_GET['page'];
     $id = $_GET['id'] ?? false;
+	$title = $page;
     if($id) {
         $article = Article::find_by_id($id);
         $title = ' - View/Edit Page - '. $article->title;
     }
 } 
 if(empty($_GET['id'])) {
-		$page_name = "Home";
-		$title = "Home";
 }
 ?>
 <!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
     <head>
-        <title>Admin Area<?php echo $page_name .' ' . $title; ?> </title>
+        <title>Admin Area - <?php echo $title;?> </title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -161,17 +161,17 @@ if(empty($_GET['id'])) {
                 border:1px solid #333;
             }
             </style>
-            <script src="https://cdn.tiny.cloud/1/3edhgnus3na2othbpvk4j9b5zzce8wwbzst6tv8vp5ie0euk/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
-            <script>
-                tinymce.init({
-                selector: '#tiny',
-                plugins: 'autolink lists media table',
-                toolbar: 'addcomment showcomments code table',
-                toolbar_mode: 'floating',
-                tinycomments_mode: 'embedded',
-                tinycomments_author: 'Johnny Watts',
-                });
-            </script>
-            <script src="assets/js/jquery-3.4.0.js"></script><script src="assets/js/bootstrap.min.js"></script>
+		   <script src="https://cdn.tiny.cloud/1/61ywuj312ce6gvdmuufb78lqarxdyh0rpwryh9rebykv8caf/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+			<script>
+			tinymce.init({
+			  selector: 'textarea',
+			  plugins: 'a11ychecker advcode casechange export formatpainter image editimage linkchecker autolink lists checklist media mediaembed pageembed permanentpen powerpaste table advtable tableofcontents tinycomments tinymcespellchecker',
+			  toolbar: 'a11ycheck addcomment showcomments casechange checklist code export formatpainter image editimage pageembed permanentpen table tableofcontents',
+			  toolbar_mode: 'floating',
+			  tinycomments_mode: 'embedded',
+			  tinycomments_author: 'Author name',
+			});
+		  </script>
+           <script src="assets/js/jquery-3.4.0.js"></script><script src="assets/js/bootstrap.min.js"></script>
         </head>
 
