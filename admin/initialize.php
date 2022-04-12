@@ -1,4 +1,5 @@
 <?php
+//echo '<h1 style="background:#fff;padding:20px;font-size:3em;">Initialized</h1>';
     ob_start(); // output buffering is turned on
 
     session_start(); // turn on sessions
