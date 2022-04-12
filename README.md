@@ -1,0 +1,2 @@
+# kdg_admin
+ <h1>KDG-CMS-ADMIN</h1> <img src="/kdg-cms-admin.png" /> <p>Unfinished Project. I'm in the process of changing from procedural to object oriented PHP, so there is a mixture of both which will resolve to purely object oriented PHP over the course of the project. The sitemap generator and rss generator functions in particular will require modification of the generic "somesite" placeholders. It works as is, but will require that you inspect and understand the code, then modify it to your needs.</p> <p>Login is: user: administrator password: P@ssword1234 </p>

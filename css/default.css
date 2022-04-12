@@ -1,0 +1,1053 @@
+/*
+###################################################################################
+###################################################################################
+###########																###########
+###########    		     DEFAULT.CSS Stylesheet for KDG CMS.  			###########
+###########			by Kaosium Design Group / Kaos August 2, 2016		###########
+###########																###########
+###################################################################################
+###################################################################################
+*/
+
+/*  <===================  LINKS AND HEADINGS  ===================>  */
+/*  <===================  LINKS AND HEADINGS  ===================>  */
+/*  <===================  LINKS AND HEADINGS  ===================>  */
+/*  <===================  LINKS AND HEADINGS  ===================>  */
+
+
+.notifications {
+	width:100%;
+	margin:0px auto 0px auto;
+	border:1px solid #333;
+	padding:20px;
+}
+
+.notifications h2 {
+	text-align:lef!importantt;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #6b1408;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #b80808;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:after {
+
+}
+
+input:checked + .slider {
+  background-color: #053d06;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+	  background-color: #08ae0c;
+	  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.copyright {
+	text-align:center;
+	margin:0px auto 0px auto;
+}
+
+
+#back-top {
+	display:none;
+	position: fixed;
+	bottom: 80px;
+	right: 160px;
+	width: 90px;
+	font-size:.9em;
+	padding:2px 4px 0px 4px;
+	margin:4px auto 4px auto;
+	color:#fbcb49;
+	text-align:center;	
+	height:20px;
+	
+	/* Background color and gradients */
+	background: -moz-linear-gradient(top, #023249, #041649);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#041649), to(#023249));
+	
+	/* Borders */
+	border: 1px solid #ccc;
+	border-radius:20px;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+}
+
+#back-top:hover {
+	/* Background color and gradients */
+	background: -moz-linear-gradient(top, #0272a7, #041649);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0272a7), to(#041649));
+	color:#e2ea0d;	
+	/* Borders */
+}
+
+#back-top:active {
+	font-size:.8em;	
+}
+
+#back-top a {
+	text-decoration: none;
+	color: #e0c90a;
+}
+
+#back-top a:hover {
+	color: #0099cc;
+}
+
+/*   ##################################################################################  */
+
+
+a:link {
+	text-decoration: none;
+	color: #ffba00;
+	font-weight:960;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #ffba00;
+} 
+
+a:Hover {
+	text-decoration: none;
+	color:#f1670a;
+}
+
+h1 {
+	
+}
+
+h2 {
+	font-size:1.8em;
+	text-shadow: 4px 4px 2px #38c3fd;
+	margin:20px 0px 20px 60px;	
+}
+
+h2:hover {
+	color:#fff;
+	font-size:1.8em;
+	text-shadow: 4px 4px 2px #38c3fd;
+}
+
+h3 {
+	font-size:1.1em;
+	text-shadow: 2px 2px 1px #38c3fd;
+	text-align:center;		
+}
+
+h4 {
+	font-size:1.1em;
+	text-shadow: 2px 2px 1px #0b47f3;
+	text-align:center;	
+}
+
+h5 {
+	
+}
+
+h6 {
+	font-size:2.0em;
+	text-shadow: 4px 4px 2px #0b47f3;
+	margin:20px 0px 20px 60px;
+}
+
+footer a {
+	text-shadow:none!important;
+}
+
+footer a:hover {
+	text-shadow: 2px 2px 1px #0b47f3!important;
+	color: #ffba00!important;	
+}
+
+.morpheus {
+	margin:20px auto 0px auto;
+	font-size:1.1em;
+	font-family: morpheusregular;
+}
+
+/*  <=================== END LINKS AND HEADINGS ===================>  */
+/*  <=================== END LINKS AND HEADINGS ===================>  */
+
+/*  <===================  FORMATTING  ===================>  */
+/*  <===================  FORMATTING  ===================>  */
+/*  <===================  FORMATTING  ===================>  */
+/*  <===================  FORMATTING  ===================>  */
+
+header {
+	border:1px solid #333;
+	margin:0px auto 0px auto;
+	padding-right:60px;
+	height:140px;
+	background:#000;
+	border-radius:10px 10px 10px 10px;
+}
+
+header img {
+	max-width:100%;
+    display: block;
+	padding:20px 0px 0px 30px ;
+    margin: auto;
+}
+
+
+#joomla_menu {
+	display:none !important;
+}
+
+
+
+#main_body img {
+	display:block;
+	margin:auto;
+}
+
+#m_header{
+	border:0px;
+	display:none;
+	}
+
+#m_header img{
+		width:99%;
+		padding-right:20px;		
+	}
+
+
+img {
+	max-width:100%;
+
+
+}
+
+body {	
+	font-family:Helvetica,sans-serif;
+    font-size: 10pt;
+	color:#fff;
+	background:#000;
+    background-image: url("../Images/background.png"); 
+    background-attachment: fixed;	
+	width:80%;
+	margin:20px auto 20px auto;
+	border-radius:10px 10px 0px 0px;
+	opacity:.9;
+}
+
+p {
+	text-shadow: 4px 4px 2px #1149b1;
+	font-size:1.2em;
+	margin:10px auto 0px auto;
+}
+
+i {
+	color:b4f946;
+}
+
+ul {	
+	font-size:1.1em;
+	list-style:none!important;
+	margin:0px auto 0px auto;
+
+}
+
+.italic {
+	color:f8835f;
+
+}
+
+	#footer_img {
+    float:right;
+    width: 12%;
+	}
+
+
+blockquote {
+	text-shadow: 4px 4px 2px #d3d;
+	font-size:1.1em;	
+} 
+
+em {
+	text-shadow: 4px 4px 2px #ffab00;
+	font-size:1.2em !important;	
+}
+
+table em {
+	text-shadow: 4px 4px 2px #ffab00;
+	font-size:1.1em !important;	
+	padding:0;
+	margin:0px auto 0px auto;
+	float:left;
+}
+
+
+
+
+nav ul {
+	list-style:none;
+}
+
+section {
+	width:100%;
+	background:#000;
+	display:inline-block;
+	margin:0px auto 0px auto;	
+}
+
+article {
+  float:left;  
+  width:80%;
+  margin:5px auto 0px 60px;
+  font-size:10pt;
+  background:#000;
+  padding:10px; 
+  padding-bottom:60px;
+}
+
+
+ul {
+	list-style:none;
+	}
+
+
+#sidebar_r {
+  float:right;	
+  width:20%;
+  font-size:10pt;
+  padding:10px;
+  right:15%;
+  top:40%;
+  position:absolute;
+}
+		
+	
+
+
+/*  <=================== END FORMATTING ===================>  */
+
+
+/*  <================= FORMS AND CONTROLS =================> */
+/*  <================= FORMS AND CONTROLS =================> */
+/*  <================= FORMS AND CONTROLS =================> */
+/*  <================= FORMS AND CONTROLS =================> */
+
+.text_box_style {
+	margin:10px 0px 10px 10px;
+	width:200px;
+	height:30px;
+	text-align:center;
+	border-radius:15px;
+vertical-align:middle;	
+}
+
+.textbox_med {
+	width:100px;
+	border-radius:15px;
+	margin:10px 0px 10px 10px;
+	text-align:center;	
+vertical-align:middle;	
+}
+
+.textbox_sm {
+	width:40px;
+	border-radius:10px;
+	margin:10px 0px 10px 10px;
+	text-align:center;	
+	vertical-align:middle;
+}
+
+.small-text {
+	padding-top:20px;
+	margin:10px 0px 10px 10px;
+	text-align:center;
+	border-radius:15px;
+	height:10em;
+	width:20em;	
+}
+
+.medium-text {
+	padding-top:20px;
+	margin:10px 0px 10px 10px;
+	text-align:center;
+	border-radius:15px;
+	height:20em;
+	width:30em;
+}
+
+.large-text {
+	padding-top:20px;
+	margin:10px 0px 10px 10px;
+	text-align:center;
+	border-radius:15px;
+	height:30em;
+	width:40em;	
+}
+
+button {
+	width: 90px;
+	/* Background color and gradients */
+	background: rgb(0,0,0);
+	background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(200,13,13,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(200,13,13,1) 100%);
+	background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(200,13,13,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#c80d0d',GradientType=0 ); 
+	padding:2px 4px 2px 4px;
+	margin:4px auto 4px auto;
+	color:#fbcb49;
+	text-align:center;
+	/* Borders */
+	border: 1px solid #ccc;
+	border-radius:20px;
+	height: 30px;
+}
+
+button:hover {
+	/* Background color and gradients */
+	background: rgb(200,13,13);
+	background: -moz-linear-gradient(top, rgba(200,13,13,1) 0%, rgba(0,0,0,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(200,13,13,1) 0%,rgba(0,0,0,1) 100%);
+	background: linear-gradient(to bottom, rgba(200,13,13,1) 0%,rgba(0,0,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c80d0d', endColorstr='#000000',GradientType=0 ); 
+	color:#e2ea0d;
+	text-align:center;	
+	/* Borders */
+	border: 1px inset #fff;	
+	border-radius:20px;
+}
+
+
+button:active {
+	/* Background color and gradients */
+	background: rgb(0,0,0);
+	background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(200,13,13,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(200,13,13,1) 100%);
+	background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(200,13,13,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#c80d0d',GradientType=0 ); 
+	color:#e2ea0d;
+	text-align:center;
+	font-size:.6em;	
+	/* Borders */
+	border-radius:20px;
+	border: 2px outset #333;	
+	-moz-box-shadow:outset 0px 0px 0px #000;
+	-webkit-box-shadow:outset 0px 0px 0px #000;
+	box-shadow:outset 0px 0px 0px #fff;
+}
+
+.read_more {
+	width:90%;
+	height:60%;
+}
+
+.read_more:active {
+	font-size:1em;
+}
+
+footer {
+	background:#000;
+	margin-top:0px;	
+	padding-bottom:20px;
+	border-left:1px solid #333;
+	border-right:1px solid #333;
+	border-bottom:1px solid #333;
+	border-radius:0px 0px 10px 10px;	
+	width:100%;
+}
+
+/*  <================= END FORMS AND CONTROLS =================> */
+
+
+#user_sub_form {
+	width:100%;
+ 		/* Background color and gradients */
+/*
+	background: -moz-linear-gradient(top, #000, #023);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0272a7), to(#000));
+
+	padding:0px 40px 0px 40px;
+	margin: 90px 20px 10px -10px;
+*/	
+	/* Borders */
+/*	
+	-moz-box-shadow:inset 0px 0px 1px #edf9ff;
+	-webkit-box-shadow:inset 0px 0px 1px #edf9ff;
+	box-shadow:inset 0px 0px 1px #edf9ff;
+*/
+}
+
+undernote {
+	margin:0;
+	padding:0;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:10px;
+	text-align:center;
+}
+
+
+#user_sub_form  ul{
+	list-style-type:none !important;
+}
+
+#user_sub_form h6{
+    margin:0px auto 0px auto;	
+	padding:20px;
+	font-size:1.8em;
+	text-align:center;
+}
+
+#obj_cont {
+  width:90%;		
+  border-radius:10px; 
+  background:#ccc;	
+}
+
+span { 
+  width:60%;  
+  border-radius:10px; 
+  background:black;
+}
+  
+* html .buttons
+{
+	height:1%;
+}
+
+* html form li div
+{
+	display:inline-block;
+}
+
+form li div
+{
+
+	margin:0 4px 0 0;
+	padding:0 0 8px;
+}
+
+form li span
+{
+
+	float:left;
+	margin:0 4px 0 0;
+	padding:0 0 8px;
+}
+
+form li div.left
+{
+	display:inline;
+	float:left;
+	width:48%;
+}
+
+form li div.right
+{
+	display:inline;
+	float:right;
+	width:48%;
+}
+
+form li div.left .medium
+{
+	width:100%;
+}
+
+form li div.right .medium
+{
+	width:100%;
+}
+
+.clear
+{
+	clear:both;
+}
+
+form li div label
+{
+	clear:both;
+
+	display:block;
+	font-size:10px;
+	line-height:10px;
+	margin:0;
+	padding-top:3px;
+}
+
+form li span label
+{
+	clear:both;
+
+	display:block;
+	font-size:10px;
+	line-height:10px;
+	margin:0;
+	padding-top:3px;
+}
+
+hyde {
+	display:none;
+}
+
+
+
+
+
+/* <============================================================>
+/* <==================  SOCIAL ICONS STYLING  ==================> 
+   <============================================================>
+*/
+
+/* <=== CSS FOR SLIDE EFFECT ===> */	
+		
+div.social-slide {
+	height: 48px;
+	width: 48px;
+	margin: 10px;
+	float: left;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+}
+div.social-slide:hover {
+	background-position: 0px -48px;
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+}
+div.twitter-hover {
+	background-image: url('../Images/slide/twitter.png');
+}
+div.facebook-hover {
+	background-image: url('../Images/slide/facebook.png');
+}
+div.google-hover {
+	background-image: url('../Images/slide/google.png');
+}
+div.pinterest-hover {
+	background-image: url('../Images/slide/pinterest.png');
+}
+div.linkedin-hover {
+	background-image: url('../Images/slide/linkedin.png');
+}
+
+/*  END SLDIE EFFECT  */
+
+/*  <=== CSS FOR ROLLOVER EFFECT ===> */
+
+div.social_roll {
+
+	height: 48px;
+	width: 48px;
+	margin: 10px;
+	float: left;
+	border-radius: 50%;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+	}
+
+div.twitter-mouseover {
+	background-image: url('../Images/gray/twitter.png');
+	height: 48px;
+	width: 48px;
+	margin: 10px;
+	float: left;
+	border-radius: 50%;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+	}
+	
+div.twitter-mouseover:hover {
+	background-image: url('../Images/color/twitter.png');
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+	-webkit-transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
+	-ms-transform:rotate(360deg);
+	transform:rotate(360deg);
+}
+
+div.facebook-mouseover {
+	background-image: url('../Images/gray/facebook.png');
+	height: 48px;
+	width: 48px;
+	margin: 10px;
+	float: left;
+	border-radius: 50%;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+	}
+	
+div.facebook-mouseover:hover {
+	background-image: url('../Images/color/facebook.png');
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+	-webkit-transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
+	-ms-transform:rotate(360deg);
+	transform:rotate(360deg);
+}
+div.google-mouseover {
+	background-image: url('../Images/gray/google.png');
+	height: 48px;
+	width: 48px;
+	margin: 10px;
+	float: left;
+	border-radius: 50%;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+	}
+	
+div.google-mouseover:hover {
+	background-image: url('../Images/color/google.png');
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+	-webkit-transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
+	-ms-transform:rotate(360deg);
+	transform:rotate(360deg);
+}
+div.linkedin-mouseover {
+	background-image: url('../Images/gray/linkedin.png');
+	height: 48px;
+	width: 48px;
+	margin: 10px;
+	float: left;
+	border-radius: 50%;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+	}
+	
+div.linkedin-mouseover:hover {
+	background-image: url('../Images/color/linkedin.png');
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+	-webkit-transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
+	-ms-transform:rotate(360deg);
+	transform:rotate(360deg);
+}
+div.pinterest-mouseover {
+	background-image: url('../Images/gray/pinterest.png');
+	height: 48px;
+	width: 48px;
+	margin: 10px;
+	float: left;
+	border-radius: 50%;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+	}
+	
+div.pinterest-mouseover:hover {
+	background-image: url('../Images/color/pinterest.png');
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+	-webkit-transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	-o-transform:rotate(360deg);
+	-ms-transform:rotate(360deg);
+	transform:rotate(360deg);
+	
+}
+/*  END ROLLOVER EFFECT  */
+
+/*  BEGIN CSS SOCIAL POPOUT EFFECT  */
+div.joomla-popout img:hover {
+	margin: 0px;
+	box-shadow: 6px 6px 4px 4px rgba(255,255,255, 0.3);
+}
+div.twitter-popout {
+	height: 48px;
+	width: 48px;
+	margin: 10px;
+	float: left;
+	-webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-o-transition: all ease 0.5s;
+	-ms-transition: all ease 0.5s;
+	transition: all ease 0.5s;
+}
+div.twitter-popout img {
+	border-radius: 50%;
+	margin: 8px;
+	width: 100%;
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.3);
+	-webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-o-transition: all ease 0.5s;
+	-ms-transition: all ease 0.5s;
+	transition: all ease 0.5s;
+}
+
+
+div.twitter-popout img:hover {
+	margin: 0px;
+	box-shadow: 6px 6px 4px 4px rgba(255,255,255, 0.3);
+}
+div.facebook-popout {
+	height: 48px;
+	width: 48px;
+	margin: 10px;
+	float: left;
+	-webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-o-transition: all ease 0.5s;
+	-ms-transition: all ease 0.5s;
+	transition: all ease 0.5s;
+}
+div.facebook-popout img {
+	border-radius: 50%;
+	margin: 8px;
+	width: 100%;
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.3);
+	-webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-o-transition: all ease 0.5s;
+	-ms-transition: all ease 0.5s;
+	transition: all ease 0.5s;
+}
+div.facebook-popout img:hover {
+	margin: 0px;
+	box-shadow: 6px 6px 4px 4px rgba(255,255,255, 0.3);
+}
+div.google-popout {
+	height: 48px;
+	width: 48px;
+	margin: 10px;
+	float: left;
+	-webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-o-transition: all ease 0.5s;
+	-ms-transition: all ease 0.5s;
+	transition: all ease 0.5s;
+}
+div.google-popout img {
+	border-radius: 50%;
+	margin: 8px;
+	width: 100%;
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.3);
+	-webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-o-transition: all ease 0.5s;
+	-ms-transition: all ease 0.5s;
+	transition: all ease 0.5s;
+}
+div.google-popout img:hover {
+	margin: 0px;
+	box-shadow: 6px 6px 4px 4px rgba(255,255,255, 0.3);
+}
+div.linkedin-popout {
+	height: 48px;
+	width: 48px;
+	margin: 10px;
+	float: left;
+	-webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-o-transition: all ease 0.5s;
+	-ms-transition: all ease 0.5s;
+	transition: all ease 0.5s;
+}
+div.linkedin-popout img {
+	border-radius: 50%;
+	margin: 8px;
+	width: 100%;
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.3);
+	-webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-o-transition: all ease 0.5s;
+	-ms-transition: all ease 0.5s;
+	transition: all ease 0.5s;
+}
+div.linkedin-popout img:hover {
+	margin: 0px;
+	box-shadow: 6px 6px 4px 4px rgba(255,255,255, 0.3);
+}
+
+div.pinterest-popout {
+	height: 48px;
+	width: 48px;
+	margin: 10px;
+	float: left;
+	-webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-o-transition: all ease 0.5s;
+	-ms-transition: all ease 0.5s;
+	transition: all ease 0.5s;
+}
+div.pinterest-popout img {
+	border-radius: 50%;
+	margin: 8px;
+	width: 100%;
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.3);
+	-webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-o-transition: all ease 0.5s;
+	-ms-transition: all ease 0.5s;
+	transition: all ease 0.5s;
+}
+div.pinterest-popout img:hover {
+	margin: 0px;
+	box-shadow: 6px 6px 4px 4px rgba(255,255,255, 0.3);
+}
+
+div.youtube-popout {
+	height: 48px;
+	width: 48px;
+	margin: 10px;
+	float: left;
+	-webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-o-transition: all ease 0.5s;
+	-ms-transition: all ease 0.5s;
+	transition: all ease 0.5s;
+}
+div.youtube-popout img {
+	border-radius: 50%;
+	margin: 8px;
+	width: 100%;
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.3);
+	-webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-o-transition: all ease 0.5s;
+	-ms-transition: all ease 0.5s;
+	transition: all ease 0.5s;
+}
+div.youtube-popout img:hover {
+	margin: 0px;
+	box-shadow: 6px 6px 4px 4px rgba(255,255,255, 0.3);
+}
+/*  END POPOUT EFFECT  */
+
+.soc_icon {
+  width:40px;
+  margin-left:auto;
+  margin-right:auto;
+  padding:-25px;
+
+}
+
+.soc_icon img{
+  width:40px;
+  margin-left:auto;
+  margin-right:auto;
+  padding:-25px;
+
+}
+
+#desc {
+	margin:0px 10px 0px 20px;
+}
+
+.soc_icon li{
+  width:40px;
+  margin-left:auto;
+  margin-right:auto;
+  padding:-25px;
+  display:inline-block;
+}
+
+div#kaos_social_icons li {
+  width:40px;
+  margin-left:auto;
+  margin-right:auto;
+  padding:-25px;
+  display:inline-block;
+}
+
+div#kaos_social_icons img {
+  width:40px;
+  margin-left:auto;
+  margin-right:auto;
+  padding:-25px;
+
+}
+
+div#kaos_social_icons a:hover {
+	text-decoration: none!important;
+}
+
+div#kaos_social_icons img {
+	transform: scale(1);
+	-ms-transform: scale(1);
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	-o-transform: scale(1);
+	
+	transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+}
+
+div#kaos_social_icons img:hover {
+	transform: scale(1.4);
+	-ms-transform: scale(1.4);
+	-moz-transform: scale(1.4);
+	-webkit-transform: scale(1.4);
+	-o-transform: scale(1.4);
+}
+#social {
+	margin:0px auto 0px auto;
+}
+
+

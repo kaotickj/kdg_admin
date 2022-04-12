@@ -1,0 +1,36 @@
+body {
+    background:#000;
+	color:#fff;
+}
+
+backbut {
+	padding:5px;
+	padding-left:10px;
+	padding-right:10px;
+	border:1px solid #fff;
+	background:#ff0f0f;
+
+
+	margin-right:auto;
+	margin-left:auto;
+	border-radius:10px;
+}
+
+
+
+backbut a:link {
+	text-decoration: none;
+	color: silver;
+}
+
+backbut a:visited {
+	text-decoration: none;
+	color: #cccc66;
+} 
+
+backbut a:Hover {
+	text-decoration: none;
+	color:#0099cc;
+	line-height : normal;
+	outline : Blue;
+}

@@ -1,0 +1,10 @@
+## KDG Web Design Default .htaccess
+#
+DirectoryIndex index.html index.php .index.php
+
+RewriteEngine On
+## Check for bots and redirect 
+#
+RewriteRule ^robots.txt$ ../robots.php  [NC,L]
+
+

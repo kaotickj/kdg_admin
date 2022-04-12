@@ -1,0 +1,16 @@
+AuthType Basic
+AuthName EnterPassword
+AuthUserFile  /var/www/vhosts/.htpasswd
+Require valid-user
+
+RewriteEngine On
+#RewriteBase /
+DirectoryIndex traffic.php
+
+
+
+deny from 34.75.77.246 ##Self identified bot
+deny from 114.119.163.229 ##Self identified bot
+deny from 85.208.96.69 ##Self identified bot
+deny from 114.119.163.229 ##Self identified bot
+deny from 108.174.8.21 ##Self identified bot
