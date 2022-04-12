@@ -165,8 +165,8 @@ class Article {
     public $moddate;
     public $modauthor;
 
+	//Constants comma separated values for multiple  
     public const CATEGORIES = ['general', 'articles', 'legal', 'services', 'news'];
-	// Comma separated 
     public const AUTHORS = ['Super Admin'];
 
     public const ACTIVE = ['1', '0'];

@@ -25,7 +25,7 @@ require_login();
             </tr>
             <tr>';
 				echo '
-                <td style="font-weight: bold;font-family: arial;padding:10px;border:1px solid #fff;"><img src="/admin/Images/exclamation-mark.png"></td>
+                <td style="font-weight: bold;font-family: arial;padding:10px;border:1px solid #fff;"><img src="Images/exclamation-mark.png"></td>
                 <td style="font-weight: bold;font-family: arial;padding:10px;border:1px solid #fff;"><em>K S.W.A.T. Has Blocked: '.$blocks.' threats. </em></td>
                 <td style="font-weight: bold;font-family: arial;padding:10px;border:1px solid #fff;"><a href="../kblocker/vault/killed_log.php" target="_blank" class="btn btn-primary btn-sm text-center btn-center"> View </a></td>';
 			echo '</tr>';
@@ -35,7 +35,7 @@ require_login();
 		}
 			echo '<tr>';
 				echo '
-                <td style="font-weight: bold;font-family: arial;padding:10px;border:1px solid #fff;"><img src="/admin/Images/exclamation-mark.png"></td>
+                <td style="font-weight: bold;font-family: arial;padding:10px;border:1px solid #fff;"><img src="Images/exclamation-mark.png"></td>
                 <td style="font-weight: bold;font-family: arial;padding:10px;border:1px solid #fff;"><em>You have new Blocked Activity From: '.$count.' bots. </em></td>
                 <td style="font-weight: bold;font-family: arial;padding:10px;border:1px solid #fff;"><a href="index.php?page=viewBots" class="btn btn-primary btn-sm text-center btn-center"> View </a></td>';
 			echo '</tr>';
@@ -45,7 +45,7 @@ require_login();
 
 			echo '<tr>';
 			echo '
-            <td style="font-weight: bold;font-family: arial;padding:10px;"><img src="/admin/Images/tick.png"></td>
+            <td style="font-weight: bold;font-family: arial;padding:10px;"><img src="Images/tick.png"></td>
             <td style="font-weight: bold;font-family: arial;padding:10px;border:1px solid #fff;"><em>You have no new bot Activity &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</em></td>
             <td style="font-weight: bold;font-family: arial;padding:10px;border:1px solid #fff;"><a href="index.php?page=viewBots" class="btn btn-primary btn-sm text-center btn-center"> View </a></td>';
 			echo '</tr>';
@@ -73,7 +73,7 @@ require_login();
 			}
 			echo '<tr>';
 				echo '
-                <td style="font-weight: bold;font-family: arial;padding:10px;border:1px solid #fff;"><img src="/admin/Images/exclamation-mark.png"></td>
+                <td style="font-weight: bold;font-family: arial;padding:10px;border:1px solid #fff;"><img src="Images/exclamation-mark.png"></td>
                 <td style="font-weight: bold;font-family: arial;padding:10px;border:1px solid #fff;"><em>You have new Security Threat Activity From<br>'.$count.' wannabe hackers.</em></td>
                 <td style="font-weight: bold;font-family: arial;padding:10px;border:1px solid #fff;"><a href="index.php?page=viewHaxxors" class="btn btn-primary btn-sm text-center btn-center"> View </a></td>';
 			echo '</tr>';
@@ -81,7 +81,7 @@ require_login();
 		else {
 			echo '<tr>';
 			echo '
-            <td style="font-weight: bold;font-family: arial;padding:10px;border:1px solid #fff;"><img src="/admin/Images/tick.png"></td>
+            <td style="font-weight: bold;font-family: arial;padding:10px;border:1px solid #fff;"><img src="Images/tick.png"></td>
             <td style="font-weight: bold;font-family: arial;padding:10px;border:1px solid #fff;"><em>You have no new Security Threat Activity &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</em></td>
             <td style="font-weight: bold;font-family: arial;padding:10px;border:1px solid #fff;"><a href="index.php?page=viewHaxxors" class="btn btn-primary btn-sm text-center btn-center"> View </a></td>';
 			echo '</tr>';
@@ -97,17 +97,15 @@ require_login();
     if(! $rs ) {
         die('Could not get data: ' . mysql_error());
    }
-//				echo '<h2><a name="notices">Kaos CMS User Contact Notices:</a></h2>';
 
 $count=0;
-//				echo '<em>Contact Form Submissions.<br><br></em> ';
 			while($row = mysqli_fetch_assoc($rs)) {
 
 		$count = $count + 1;
 			}
 			echo '<tr>';
 				echo '
-                <td style="font-weight: bold;font-family: arial;padding:10px;border:1px solid #fff;"><img src="/admin/Images/exclamation-mark.png"></td>
+                <td style="font-weight: bold;font-family: arial;padding:10px;border:1px solid #fff;"><img src="Images/exclamation-mark.png"></td>
                 <td style="font-weight: bold;font-family: arial;padding:10px;border:1px solid #fff;"><em>You have new Contact Form Submissions From<br>'.$count.' user(s).</td>
                 <td style="font-weight: bold;font-family: arial;padding:10px;border:1px solid #fff;"><a href="index.php?page=viewComments" class="btn btn-primary btn-sm text-center btn-center"> View </a></td>';
 			echo '</tr>';
@@ -115,7 +113,7 @@ $count=0;
 		else {
 			echo '<tr>';
 			echo '
-            <td style="font-weight: bold;font-family: arial;padding:10px;border:1px solid #fff;"><img src="/admin/Images/tick.png"></td>
+            <td style="font-weight: bold;font-family: arial;padding:10px;border:1px solid #fff;"><img src="Images/tick.png"></td>
             <td style="font-weight: bold;font-family: arial;padding:10px;border:1px solid #fff;"><em>You have no unread Contact Form Submissions</em></td>
             <td style="font-weight: bold;font-family: arial;padding:10px;border:1px solid #fff;"><a href="index.php?page=viewBots" class="btn btn-primary btn-sm text-center btn-center"> View </a></td>';
 			echo '</tr>';
@@ -137,7 +135,7 @@ $count=0;
         }
 			echo '<tr>';
 				echo '
-                <td style="font-weight: bold;font-family: arial;padding:10px;border:1px solid #fff;"><img src="/admin/Images/exclamation-mark.png"></td>
+                <td style="font-weight: bold;font-family: arial;padding:10px;border:1px solid #fff;"><img src="Images/exclamation-mark.png"></td>
                 <td style="font-weight: bold;font-family: arial;padding:10px;border:1px solid #fff;"><em>You have new Quote Requests From '.$count.' user(s).</em></td>
                 <td style="font-weight: bold;font-family: arial;padding:10px;border:1px solid #fff;"><a href="index.php?page=viewBots" class="btn btn-primary btn-sm text-center btn-center"> View </a></td>';
 			echo '</tr>';
@@ -145,7 +143,7 @@ $count=0;
 		else {
 			echo '<tr>';
 			echo '
-            <td style="font-weight: bold;font-family: arial;padding:10px;border:1px solid #fff;"><img src="/admin/Images/tick.png"></td>
+            <td style="font-weight: bold;font-family: arial;padding:10px;border:1px solid #fff;"><img src="Images/tick.png"></td>
             <td style="font-weight: bold;font-family: arial;padding:10px;border:1px solid #fff;"><em>You have no unread Quote Requests &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</em></td>
             <td style="font-weight: bold;font-family: arial;padding:10px;border:1px solid #fff;"><a href="index.php?page=viewHaxxors" class="btn btn-primary btn-sm text-center btn-center"> View </a></td>';
 			echo '</tr>';

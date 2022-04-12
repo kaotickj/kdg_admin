@@ -7,10 +7,8 @@ if(empty($_GET['id'])) {
 		$page_name = "Home";
 		$title = "Home";
 }
-
 $bgImg = "assets/img/bg.jpg";
 if(isset($_GET['page']) && $_GET['page'] != ""){
-
 	switch($page) {
 		case "$page";
 			?>

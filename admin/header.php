@@ -2,7 +2,7 @@
 require_once('initialize.php');
 ?>
 <header>
-	<h1>KDG Web Solutions Backend<br /> <small>Administrative Control Panel &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://kdgwebsolutions.com/" target="_blank" class="btn btn-primary" style="position:relative;"><span style=""><i class="fa fa-eye" aria-hidden="true"></i> View Site </span></a></small></h1>
+	<h1>KDG_ADMIN Backend<br /> <small>Administrative Control Panel &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://kdgwebsolutions.com/" target="_blank" class="btn btn-primary" style="position:relative;"><span style=""><i class="fa fa-eye" aria-hidden="true"></i> View Site </span></a></small></h1>
 <?php
 if (is_logged_in()) {
 ?>
@@ -19,8 +19,10 @@ if (is_logged_in()) {
 					</li>
                  	<li><ul class="sub-menu collapse" id="system">
             			<li><a href="index.php?page=resetAuto"><i class="fas fa-gear fa-lg"></i> Alter DB Table</a></li>
+<!-- ## 
             			<li><a href="index.php?page=viewSiteSettings"><i class="fas fa-gears fa-lg"></i> Site Config Settings</a></li>
-            			<li><a href="phpinfo.php" target="_blank"><i class="fas fa-code fa-lg"></i> PHP Info</a></li>
+-->
+						<li><a href="phpinfo.php" target="_blank"><i class="fas fa-code fa-lg"></i> PHP Info</a></li>
             			<li><a href="sitemap.php" target="_blank"><i class="fas fa-map fa-lg"></i> Sitemapper</a></li>
             		</ul></li>
 
@@ -28,8 +30,10 @@ if (is_logged_in()) {
 					</li>
 						<li><ul class="sub-menu collapse" id="security">
 						  <li><a href="index.php?page=security"><i class="fas fa-gear fa-lg"></i> Security Console</a></li>
+<!-- ## Needs configuration 
 						  <li><a href="killed_log.php" target="_blank"><i class="fas fa-file-code-o fa-lg"></i> Security Logs</a></li>
 						  <li><a href="traffic/traffic.php" target="_blank"><i class="fas fa-search fa-lg"></i> View Traffic Reports</a></li>
+-->
 						</ul></li>
 					<li data-toggle="collapse" data-target="#content" class="collapsed">
 					  <a href="#"><i class="fas fa-folder-open fa-lg"></i> Content<span class="arrow"></span></a>
