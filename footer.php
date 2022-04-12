@@ -4,7 +4,7 @@
 ?>
 <footer class="text-center footer text-faded py-5">
         <div class="container">
-            <p class="m-0 small"><?php echo $copy; ?> by KDG_ADMIN</p>
+            <p class="m-0 small"><?php echo $copy; ?> by <?php echo $siteName;?></p>
         </div>
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>

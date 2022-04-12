@@ -45,8 +45,8 @@ if (!empty ($_GET['page'])) {
         $moddate = $article->moddate;
         $modauthor = $article->modauthor;
 		?>
-				<title><?php echo strtoupper($title); ?> - KDG_ADMIN</title>
-				<meta name="twitter:title" content="<?php echo strtoupper($page); ?> - KDG_ADMIN">
+				<title><?php echo $title;?> - <?php echo $siteName;?></title>
+				<meta name="twitter:title" content="<?php echo strtoupper($page); ?> - $siteName">
 				<meta name="twitter:image" content="<?php echo $img;?>">
 				<meta property="og:image" content="<?php echo $img;?>">
 				<meta name="description" content="<?php echo $desc;?>">
@@ -54,7 +54,7 @@ if (!empty ($_GET['page'])) {
 	}
 } else {
 	?>
-				<title>Home - KDG_ADMIN</title>
+				<title>Home - <?php echo $siteName;?></title>
 				<meta name="twitter:title" content="Hernandez Brothers">
 				<meta name="twitter:image" content="assets/img/bg.jpg">
 				<meta property="og:image" content="assets/img/bg.jpg">

@@ -2,7 +2,7 @@
 require_once('initialize.php');
 ?>
 <header>
-	<h1>KDG_ADMIN Backend<br /> <small>Administrative Control Panel &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://kdgwebsolutions.com/" target="_blank" class="btn btn-primary" style="position:relative;"><span style=""><i class="fa fa-eye" aria-hidden="true"></i> View Site </span></a></small></h1>
+	<h1><?php echo $siteName;?> Backend<br /> <small>Administrative Control Panel &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://kdgwebsolutions.com/" target="_blank" class="btn btn-primary" style="position:relative;"><span style=""><i class="fa fa-eye" aria-hidden="true"></i> View Site </span></a></small></h1>
 <?php
 if (is_logged_in()) {
 ?>

@@ -8,7 +8,15 @@
 <img src="/kdg_admin-front-end.png" />
 
 <h2>Installation and Setup</h2>
-<p>Place the "kdg_admin" folder in your webroot directory. Import "kdg_admin.sql". Modify "db_credentials" and "config.php" with your database connection credentials. Navigate to /admin/ where you should be required to login: user="administrator" password="P@ssword1234". After logging in, navigate to user management > add user (/admin/index.php?page=addUser) and create a new admin user account. Logout and login as the new user.  Navigate to user management > view users (/admin/index.php?page=viewUsers) and delete the default admin user (administrator).</p>
+<ol>
+	<li>Place the contents of the "kdg_admin_master" folder in your webroot directory.</li>
+	<li>Import "kdg_admin.sql". Modify "db_credentials" and "config.php" with your database connection credentials.</li>
+	<li>Navigate to /admin/ where you should be required to login: user="administrator" password="P@ssword1234".</li>
+	<li>After logging in, navigate to user management > add user (/admin/index.php?page=addUser) and create a new admin user account.</li>
+	<li>Logout and login as the new user.</li>
+	<li>Navigate to user management > view users (/admin/index.php?page=viewUsers) and delete the default admin user (administrator).</li>
+	<li>In "initialize.php", edit line 30 <code>$siteName = "KDG_ADMIN";</code> change "KDG_ADMIN" to an SEO optimized name for your site.</li>
+</ol>
 
 <h2>Securing the Framework</h2>
 <p>In "functions.php", modify the <code>is_ip_authorized()</code> function at line 87 to allow your IP Address(es). Uncomment (remove the "#" in front of) the line <code>#is_ip_authorized();</code> in "index.php" and "login.php". This will result in a 404 status for traffic from unauthorized sources visiting /admin/.</p>

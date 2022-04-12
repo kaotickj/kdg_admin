@@ -27,6 +27,7 @@
     $time = date("G:i:s T");
     $db = db_connect();
     $errors = [];
+	$siteName = "KDG_ADMIN";
     $ip = $_SERVER['REMOTE_ADDR'];
     // Load class definitions manually
 
