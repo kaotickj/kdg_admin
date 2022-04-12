@@ -10,7 +10,8 @@
 <h2>Installation and Setup</h2>
 <ol>
 	<li>Place the contents of the "kdg_admin_master" folder in your webroot directory.</li>
-	<li>Import "kdg_admin.sql". Modify "db_credentials" and "config.php" with your database connection credentials.</li>
+	<li>Import "kdg_admin.sql".</li>
+	<li>Modify "db_credentials" and "config.php" with your database connection credentials.</li>
 	<li>Navigate to /admin/ where you should be required to login: user="administrator" password="P@ssword1234".</li>
 	<li>After logging in, navigate to user management > add user (/admin/index.php?page=addUser) and create a new admin user account.</li>
 	<li>Logout and login as the new user.</li>
