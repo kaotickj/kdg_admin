@@ -17,6 +17,7 @@
 	<li>Logout and login as the new user.</li>
 	<li>Navigate to user management > view users (/admin/index.php?page=viewUsers) and delete the default admin user (administrator).</li>
 	<li>In "initialize.php", edit line 30 <code>$siteName = "KDG_ADMIN";</code> change "KDG_ADMIN" to an SEO optimized name for your site.</li>
+	<li>In "initialize.php", edit line 31 <code>$siteURL = "https://example.com/";</code> change "https://example.com" to your site URL.</li>
 </ol>
 
 <h2>Securing the Framework</h2>

@@ -28,6 +28,7 @@
     $db = db_connect();
     $errors = [];
 	$siteName = "KDG_ADMIN";
+	$siteURL = "https://example.com/";
     $ip = $_SERVER['REMOTE_ADDR'];
     // Load class definitions manually
 
