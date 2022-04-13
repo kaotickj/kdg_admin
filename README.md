@@ -22,7 +22,7 @@
 
 <h2>Securing the Framework</h2>
 <p>In "functions.php", modify the <code>is_ip_authorized()</code> function at line 87 to allow your IP Address(es). Uncomment (remove the "#" in front of) the line <code>#is_ip_authorized();</code> in "index.php" and "login.php". This will result in a 404 status for traffic from unauthorized sources visiting /admin/.</p>
-<p>By default, the login attempt limit is set to 5. This can be changed by modifying line 16 in "login.php" <code>if ($_SESSION['attempts'] >= 5){</code> from 5 to your desired limit. It is not advised to allow more than 3 - 5 attempts or to disable this fucnctionality as it mitigates brute force attacks. After the specified number of failed login attempts, the source will be banned via ../.htaccess deny and can be manuallt removed if needed.</p>
+<p>By default, the login attempt limit is set to 5. This can be changed by modifying line 16 in "login.php" <code>if ($_SESSION['attempts'] >= 5){</code> from 5 to your desired limit. It is not advised to allow more than 3 - 5 attempts or to disable this fucnctionality as it mitigates brute force attacks. After the specified number of failed login attempts, the source will be banned via ../.htaccess deny and can be manually removed if needed.</p>
 <p>**<em>For advanced security, download and use K S.W.A.T. PHP Security https://github.com/kaotickj/k-swat-php-security which has built-in support in this framework.</em> </p>
 
 
