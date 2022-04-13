@@ -1,0 +1,23 @@
+User-Agent:Amazon-bot
+Disallow:/
+
+User-agent: Uptimebot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: SemrushBot-SA
+Disallow: /
+
+User-agent: SemrushBot-SI
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: SeznamBot
+Disallow: /
+
+User-agent: voltron
+Disallow: /

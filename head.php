@@ -51,6 +51,20 @@ if (!empty ($_GET['page'])) {
 				<meta property="og:image" content="<?php echo $img;?>">
 				<meta name="description" content="<?php echo $desc;?>">
 				<meta name="twitter:description" content="<?php echo $desc;?>"><?php
+				if ($row['no_index']== 1)echo '<meta name="robots" content="noindex, nofollow" />';
+				if ($row['no_index']== 0)echo '<meta name="robots" content="index, follow" />';
+		?>
+				<meta property="og:image" content="<?php echo $img;?>" />
+				<meta property="og:image:type" content="image/jpg" />
+				<meta property="og:image:width" content="561" />
+				<meta property="og:image:height" content="350" />
+				<meta property="og:title" content="<?php echo $title;?>" />
+				<meta property="og:type" content="website" />
+				<meta property="og:url" content="<?php echo $siteURL;?>'. $page .'" />
+				<meta property="og:site_name" content="<?php echo $title;?>" />
+				<meta property="og:description" content="<?php echo $desc;?>" />
+	<?php
+				echo $schemadata;
 	}
 } else {
 	?>
