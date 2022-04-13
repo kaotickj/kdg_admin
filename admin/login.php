@@ -1,9 +1,7 @@
 <?php
 require_once('initialize.php');
 //is_ip_authorized();
-if ($_SESSION['attempts'] = NULL){
-	$_SESSION['attempts'] = 0;	
-}
+//echo (var_dump($_SESSION) .'<br><br>' .var_dump($object_array));
 //require '../bot-trap/bottrap.php';
 $errors = [];
 $username = '';
@@ -14,7 +12,7 @@ $deny = 'Login page loaded from: ' . $ip .' | Logged: '.$date.' ';
 file_put_contents($file, $deny. "\n", FILE_APPEND | LOCK_EX);
 
 if ($_SESSION['attempts'] >= 5){
-		$file = '/var/www/vhosts/kdgwebsolutions.com/.htaccess';
+		$file = '../../.htaccess';
 		$deny = 'deny from ' . $ip;
 		file_put_contents($file, $deny. "\n", FILE_APPEND | LOCK_EX);
 		$file = 'logs/.auth_logs.txt';

@@ -30,6 +30,7 @@
 	$siteName = "KDG_ADMIN";
 	$siteURL = "https://example.com/";
     $ip = $_SERVER['REMOTE_ADDR'];
+    $_SESSION['attempts'] = 0;
     // Load class definitions manually
 
     // -> Individually

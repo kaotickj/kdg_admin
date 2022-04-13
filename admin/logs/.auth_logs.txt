@@ -1,0 +1,17 @@
+Failed login attempt from ::1 No such user: "sdgsd" | Logged: Tuesday April 12, 2022 08:21:04 pm 
+Failed login attempt from ::1 No such user: "sdgfsd" | Logged: Tuesday April 12, 2022 08:21:06 pm 
+Failed login attempt from ::1 No such user: "sdgfsdgf" | Logged: Tuesday April 12, 2022 08:21:08 pm 
+Failed login attempt from ::1 No such user: "sdgfsdgf" | Logged: Tuesday April 12, 2022 08:21:10 pm 
+Failed login attempt from ::1 No such user: "sdgfsdgf" | Logged: Tuesday April 12, 2022 08:21:12 pm 
+Failed login attempt from ::1 No such user: "sdgfsdfg" | Logged: Tuesday April 12, 2022 08:21:14 pm 
+Failed login attempt from ::1 No such user: "sdgsdgfs" | Logged: Tuesday April 12, 2022 08:21:16 pm 
+Failed login attempt from ::1 No such user: "sdgfsdgfsdgf" | Logged: Tuesday April 12, 2022 08:21:19 pm 
+Failed login attempt from ::1 No such user: "sdgfsdgf" | Logged: Tuesday April 12, 2022 08:21:22 pm 
+Failed login attempt from ::1 No such user: "sdgfsdgfsdgf" | Logged: Tuesday April 12, 2022 08:21:25 pm 
+Failed login attempt from ::1 No such user: "sdgfsdgfsdgf" | Logged: Tuesday April 12, 2022 08:24:43 pm 
+Failed login attempt from ::1 No such user: "sdgfsdfg" | Logged: Tuesday April 12, 2022 08:27:49 pm 
+Failed login attempt from ::1 No such user: "sdgfsdfg" | Logged: Tuesday April 12, 2022 08:28:07 pm 
+Failed login attempt from ::1 No such user: "asdfasdf" | Logged: Tuesday April 12, 2022 08:28:18 pm 
+Failed login attempt from ::1 No such user: "asdfasdfa" | Logged: Tuesday April 12, 2022 08:28:20 pm 
+Too many failed login attempts from ::1 | Logged: Tuesday April 12, 2022 08:28:22 pm 
+Too many failed login attempts from ::1 | Logged: Tuesday April 12, 2022 08:29:22 pm 
