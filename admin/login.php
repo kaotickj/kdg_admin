@@ -12,12 +12,12 @@ $deny = 'Login page loaded from: ' . $ip .' | Logged: '.$date.' ';
 file_put_contents($file, $deny. "\n", FILE_APPEND | LOCK_EX);
 
 if ($_SESSION['attempts'] >= 5){
-		$file = '../../.htaccess';
-		$deny = 'deny from ' . $ip;
-		file_put_contents($file, $deny. "\n", FILE_APPEND | LOCK_EX);
-		$file = 'logs/.auth_logs.txt';
-		$deny = 'Too many failed login attempts from ' . $ip .' | Logged: '.$date.' ';
-		file_put_contents($file, $deny. "\n", FILE_APPEND | LOCK_EX);
+	$file = '../../.htaccess';
+	$deny = 'deny from ' . $ip;
+	file_put_contents($file, $deny. "\n", FILE_APPEND | LOCK_EX);
+	$file = 'logs/.auth_logs.txt';
+	$deny = 'Too many failed login attempts from ' . $ip .' | Logged: '.$date.' ';
+	file_put_contents($file, $deny. "\n", FILE_APPEND | LOCK_EX);
 
 	die('Too many failed login attempts.');		
 }
