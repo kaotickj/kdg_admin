@@ -22,7 +22,7 @@
 	<tr style="color:#fff;background: #000;">
 		<td style="font-weight: bold;font-family: arial;padding:10px;border:1px solid #fff;">&nbsp;&nbsp;<?php echo $post["id"]; ?> &nbsp;&nbsp;</td>
 		<td style="border:1px solid #fff;"><?php echo $post["title"]; ?></td>
-	    <td style="font-family: arial;padding-left: 10px; padding-right:10px;text-align:center;border:1px solid #fff;"><a style="color:#fff!important;margin:8px 0px;" class="btn btn-sm btn-success" href="index.php?page=viewSinglePage&id=<?php echo h($post['id']); ?>"><i class="fa fa-pencil" aria-hidden="true"></i> Edit</a> <a class="btn btn-sm btn-primary" href="../?page=<?php echo h($post['page']); ?>" target="_blank" style="color:#fff!important;margin:5px 0px;"><i class="fa fa-eye" aria-hidden="true"></i> View </a> <a style="color:#fff!important;margin:8px 0px;" class="btn btn-sm btn-danger" href="index.php?page=delete&id=<?php echo h($post['id']); ?>"><i class="fa fa-trash" aria-hidden="true"></i> Delete</a></td>
+	    <td style="font-family: arial;padding-left: 10px; padding-right:10px;text-align:center;border:1px solid #fff;"><a style="color:#fff!important;margin:8px 0px;" class="btn btn-sm btn-success" href="index.php?page=viewSinglePage&id=<?php echo h($post['id']); ?>"><i class="fa fa-pencil" aria-hidden="true"></i> Edit</a> <a class="btn btn-sm btn-primary" href="../<?php echo h($post['page']); ?>" target="_blank" style="color:#fff!important;margin:5px 0px;"><i class="fa fa-eye" aria-hidden="true"></i> View </a> <a style="color:#fff!important;margin:8px 0px;" class="btn btn-sm btn-danger" href="index.php?page=delete&id=<?php echo h($post['id']); ?>"><i class="fa fa-trash" aria-hidden="true"></i> Delete</a></td>
 	</tr>
 		<?php
 		}

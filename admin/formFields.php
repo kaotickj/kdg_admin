@@ -23,7 +23,7 @@ if(isset($article->id))  {
                     echo $article->created_date;
                 }
                 ?> <a href="#" style="color:#fff!important;border:none!important;"><i class="fas fa-question-circle" aria-hidden="true" title="Modified By <?php echo $article->modauthor; ?>"></i></a></td>
-<td style="padding:5px 10px;border:1px solid #fff;"><a class="btn btn-sm btn-primary" href="https://kdgwebsolutions.com/<?php echo h($article->page); ?>" target="_blank" style="color:#fff!important;margin:5px 0px;"><i class="fa fa-eye" aria-hidden="true"></i> View </a> <a style="color:#fff!important;margin:8px 0px;" class="btn btn-sm btn-danger" href="index.php?page=delete&id=<?php echo h($article->id); ?>"><i class="fa fa-trash" aria-hidden="true"></i> Delete</a></td>
+<td style="padding:5px 10px;border:1px solid #fff;"><a class="btn btn-sm btn-primary" href="../<?php echo h($article->page); ?>" target="_blank" style="color:#fff!important;margin:5px 0px;"><i class="fa fa-eye" aria-hidden="true"></i> View </a> <a style="color:#fff!important;margin:8px 0px;" class="btn btn-sm btn-danger" href="index.php?page=delete&id=<?php echo h($article->id); ?>"><i class="fa fa-trash" aria-hidden="true"></i> Delete</a></td>
         </tr>
     </table>
     <p>&nbsp;</p>
