@@ -2,3 +2,4 @@ logs/**
 config.php
 db_credentials.php
 functions.php
+*.txt
